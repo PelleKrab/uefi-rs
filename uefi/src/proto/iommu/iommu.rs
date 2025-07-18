@@ -8,7 +8,7 @@ use uefi::{
     proto::unsafe_protocol,
 };
 
-use crate::{
+pub use crate::{
     proto::iommu::{DmaBuffer, Mapping},
     uefi_raw::protocol::iommu::{
         EdkiiIommuAccess, EdkiiIommuAttribute, EdkiiIommuOperation, EdkiiIommuProtocol,
